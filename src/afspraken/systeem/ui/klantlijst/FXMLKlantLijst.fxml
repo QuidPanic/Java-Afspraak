@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afspraken.systeem.ui.klantlijst.FXMLKlantLijstController">
+   <children>
+      <TableView fx:id="tableView" prefHeight="400.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="naamColumn" prefWidth="75.0" text="Naam" />
+            <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="telColumn" prefWidth="75.0" text="Telefoonnummer" />
+            <TableColumn fx:id="mailColumn" prefWidth="75.0" text="E-Mail" />
+            <TableColumn fx:id="woonplaatsColumn" prefWidth="75.0" text="Woonplaats" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
